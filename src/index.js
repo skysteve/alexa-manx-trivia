@@ -1,4 +1,4 @@
-import Alexa from 'alexa-sdk';
+const Alexa = require('alexa-sdk');
 
 exports.handler = function main(event, context) { // optional callback
   const alexa = Alexa.handler(event, context);
